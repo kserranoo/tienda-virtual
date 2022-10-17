@@ -94,7 +94,7 @@
             </div>  
         </div>
 
-        <aside class="shopping inactive"> 
+        <aside class="shopping inactive"> <!-- LISTA DE PRODUCTS -->
             <h1 class="title"> Shopping cart </h1>
             <div class="shopping-cart">
                 <figure>
@@ -117,21 +117,36 @@
                 <p> Camera </p>
                 <p> $150</p>
             </div>
-    
             <div class="my-shopping-cart-content">
-                    <p>
-                        <span> Total </span>
-                    </p>
-                    <p> $280 </p>
-                </div>
+                <p>
+                    <span> Total </span>
+                </p>
+                <p> $280 </p> 
             </div>
-            <div>
-                <input type="submit" value="Checkout" class="primary-button login-button checkout-mobile">
+            <div class="">
+                <input type="submit" value="Checkout" class="checkout-button">
             </div>
-            <div>   
-            </div>      
+              
         </aside>
     </nav>
+    <aside class="product-details inactive"> <!-- DESCRIPCION DEL PRODUCTO SELECCIONADO DE LA LISTA-->
+        <div class="product-image">
+            <img src="https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="tablet">
+            <img src="./icons/icon_close.png" alt="">
+        </div>
+        <div class="product-description">
+            <p> $80 </p>
+            <p> Tablet </p>
+            <p>Enjoy your entertainment with a fast 1.3 GHz quad-core processor. Fire HD 8 offers 50% more RAM than Fire 7 for faster performance. </p>
+
+        </div>
+        <div class="button">
+            <button class="primary-button">
+                <img src="./icons/bt_add_to_cart.svg" alt="add to cart">
+                Add to cart
+            </button>
+        </div>  
+    </aside>
     <section class="main-container">
         <div class="cards-container">
         </div>
